@@ -1,0 +1,195 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #36393F;
+    color: #DCDDDE;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    background-color: #2F3136;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #7289DA;
+}
+
+.logo i {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #202225;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    color: #72767D;
+}
+
+/* Guild Card Styles */
+.guild-card {
+    background-color: #2F3136;
+    border-radius: 8px;
+    width: 320px;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.guild-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.guild-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.guild-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #7289DA;
+}
+
+.badge {
+    background-color: #7289DA;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.badge2 {
+    background-color: #ff2f2f;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.guild-info h2 {
+    font-size: 1.4rem;
+    margin: 10px 0 5px 0;
+    color: #FFF;
+}
+
+.guild-category {
+    color: #B9BBBE;
+    margin: 5px 0;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.guild-category i {
+    margin-right: 5px;
+    color: #7289DA;
+}
+
+.guild-link i {
+    color: #7289DA;
+    margin-right: 5px;
+}
+
+.guild-link a {
+    color: #7289DA;
+    text-decoration: none;
+}
+
+.guild-link a:hover {
+    text-decoration: underline;
+}
+
+.guild-tags {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.guild-tags span {
+    background-color: #4F545C;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+}
+
+.more {
+    background-color: #7289DA;
+}
+
+.members {
+    margin: 10px 0;
+    color: #B9BBBE;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.members i {
+    margin-right: 5px;
+    color: #7289DA;
+}
+
+/* Button Styles */
+.join-btn {
+    display: block;
+    text-align: center;
+    background-color: #7289DA;
+    color: white;
+    padding: 12px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.join-btn:hover {
+    background-color: #677BC4;
+}
+
+.EpicE {
+    color: #7289DA;
+    text-decoration: none;
+}
